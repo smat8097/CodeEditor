@@ -1,0 +1,55 @@
+body {
+    background: black;
+    text-align: center;
+}
+
+h2 {
+    color: antiquewhite;
+    text-shadow: 1px 1px 2px gold;
+    font-weight: bolder;
+    font-family: 'courier new', 'sans-serif';
+}
+
+textarea {
+    outline: none;
+    border: none;
+    resize: none;
+    overflow: scroll;
+    width: 32%;
+    display: inline-block;
+    font-size: 18px;
+    margin: 0.5%;
+    background: rgb(1, 19, 19);
+    color: rgb(215, 250, 250);
+    scrollbar-base-color: gray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+textarea:focus {
+    opacity: 0.78;
+}
+
+::-webkit-scrollbar {
+    background: gray;
+    width: 0px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-button {
+    background: black;
+}
+
+::-webkit-scrollbar-corner {
+    background: black;
+}
+
+iframe {
+    bottom: 0;
+    position: relative;
+    width: 98%;
+    height: 35em;
+    color: red;
+    border: 1px 1px 1px aliceblue;
+}
+
+@media (only screen min-width=400px) {}
